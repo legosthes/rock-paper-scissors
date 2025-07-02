@@ -7,7 +7,33 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <div class="title">Rock Paper Scissors Game</div>
+    <div class="title"><h1>Rock Paper Scissors</h1></div>
+    <div class="reset"><button>RESET</button></div>
+    <div class="scores">
+      <div class="playerScore scoreCenter">
+        <h2>Player's Score:</h2>
+        <br />
+        <h2 id="playerScore">0</h2>
+      </div>
+      <div class="computerScore scoreCenter">
+        <h2>Computer's Score:</h2>
+        <br />
+        <h2 id="computerScore">0</h2>
+      </div>
+    </div>
+
+    <div class="results hidden">COMPUTER WINS!</div>
+
+    <div class="buttons">
+      <div class="narration hidden">It's a tie</div>
+      <div class="rules">Choose your move, rock, paper, or scissors?</div>
+      <div class="playersChoice buttonStyle">
+        <div><button class="rock">ROCK</button></div>
+        <div><button class="paper">PAPER</button></div>
+        <div><button class="scissors">SCISSORS</button></div>
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
